@@ -1,6 +1,6 @@
 ---
 - name: Copy all package remote tmp directory
-  hosts: all
+  hosts: singlebox
   tasks:
     - name: call all the files
       copy:
